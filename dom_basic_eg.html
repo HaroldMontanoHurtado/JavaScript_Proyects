@@ -1,0 +1,17 @@
+<!--      DOM Básico
+Selección de elementos: querySelector(), getElementById().
+Eventos: addEventListener().
+Código de ejemplo (HTML + JS):
+-->
+
+<button id="miBoton">Haz clic</button>
+<p id="resultado"></p>
+
+<script>
+  // Selección y evento
+  const boton = document.getElementById("miBoton");
+  boton.addEventListener("click", () => {
+    document.getElementById("resultado").textContent = "¡Botón clickeado!";
+  });
+</script>
+
